@@ -27,8 +27,11 @@
     $trovata = in_array($array_faq);
 
     // utilizzo il foreach per ciclare tutte le proprietà dell'array
-    foreach ($array_faq as $key => $value) {
-        echo $key . '<br>' . '<br>' . $value;
+    // foreach ($array_faq as $faq) {
+    //     var_dump($) $key . '<br>' . '<br>' . $value;
+    // }
+    foreach ($array_faq as $faq) {
+        var_dump($faq);
     }
 
 ?>
@@ -42,7 +45,7 @@
     <body>
         <div class="corpo-centrale">
             <p>
-                <?php echo $array_faq; ?>
+                <!-- <?php echo $array_faq; ?> -->
             </p>
             <p>
 
